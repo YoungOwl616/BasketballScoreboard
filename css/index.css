@@ -1,0 +1,101 @@
+/* font-family: 'Rowdies', cursive; USE THIS FOR "HOME" AND "GUEST" LABELS */
+
+@font-face {
+    font-family: Digital-Clock;
+    src: url(../digital-7.regular.ttf);
+}
+
+body {
+    margin: 0px;
+    background-image: url(https://media.giphy.com/media/l1Joh5LeD14COPjCU/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 0px;
+    color: #E8E7E1;
+    font-family: 'Rowdies', cursive;
+    font-size: 50px;
+}
+
+p {
+    font-family: Digital-Clock;
+    font-size: 80px;
+    color: #f17171;
+    background-color: #100D0D;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px 0px;
+}
+
+#winner-statement {
+    text-align: center;
+    margin: 70px auto 25px auto;
+    width: 600px;
+}
+
+#timer-statement {
+    text-align: center;
+    margin: 0px auto 55px auto;
+    width: 600px;
+}
+
+#score-card-div {
+    background-color: #29376E;
+    border: 7px solid #E8E7E1;
+    border-radius: 14px;
+    width: 800px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+#home-div {
+    text-align: center;
+}
+
+#guest-div {
+    text-align: center;
+}
+
+.btn-div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    font-family: Digital-Clock;
+    font-size: 35px;
+    border: 3px solid #E8E7E1;
+    color: #E8E7E1;
+    background-color: #29376E;
+    border-radius: 14px;
+    width: 55px;
+    height: 55px;
+    padding: 7px 7px 7px 7px;
+    margin: 0px 5px;
+}
+
+.btn:hover {
+    border: 3px solid #f6e47e;
+    color: #f6e47e;
+}
+
+#new-game-btn {
+    font-family: Digital-Clock;
+    font-size: 35px;
+    border: 3px solid #E8E7E1;
+    color: #E8E7E1;
+    background-color: #29376E;
+    border-radius: 14px;
+    padding: 7px 7px 7px 7px;
+}
+
+#new-game-btn:hover {
+    border: 3px solid #f17171;
+    color: #f17171;
+}
